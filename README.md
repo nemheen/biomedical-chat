@@ -1,37 +1,25 @@
 
 # 🧬 BioLLM + RAG Chatbot
 
-A Biomedical Question-Answering Chatbot combining **LLaMA 2** (finetuned with LoRA adapters) and **Retrieval-Augmented Generation (RAG)** powered by **Chroma vector store** and **LlamaIndex**. This project allows precise, context-rich biomedical Q\&A through a Gradio interface.
+A Biomedical Question-Answering Chatbot combining **LLaMA 2** (finetuned with LoRA adapters) and **Retrieval-Augmented Generation (RAG)** powered by **Chroma vector store** and **LlamaIndex**. This project allows precise, context-rich biomedical Q\&A through a Gradio interface. Project is deployed on <a href="https://huggingface.co/spaces/nemheen/biomedicalllm">HuggingFace Space.</a>
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This chatbot pipeline includes:
 
 * ✅ **LLaMA 2 (7B Chat)** loaded in **4-bit** with PEFT (LoRA) adapter
 * ✅ Biomedical documents indexed with **ChromaDB** + **HuggingFace embeddings**
 * ✅ Contextual retrieval with **LlamaIndex**
-* ✅ Re-ranking via **SentenceTransformer cross-encoder**
-* ✅ Lightweight and fast inference on Colab or GPU servers
-* ✅ Full support for **Gradio interface**
+* ✅ Re-ranking via **SentenceTransformer cross-encoder** to filter contexts
+* ✅ Lightweight and fast inference using quantization with BitsandBytes
+* ✅ Interface through **Gradio Chat**
 
 ---
 
-## 📁 Directory Structure
 
-```
-BioLLM-RAG/
-├── chroma/             # Chroma vector store (unzipped from chroma_db.zip)
-├── index/              # LlamaIndex storage (unzipped from index.zip)
-├── llama/              # Fine-tuned LoRA checkpoint (unzipped from checkpoint.zip)
-├── main.py             # Main application script
-├── README.md           # This file
-```
-
----
-
-## ⚙️ Requirements
+## ⚙Requirements
 
 * Python >= 3.9
 * GPU-enabled
@@ -42,7 +30,7 @@ Refer to requirements.txt
 
 ---
 
-## 🧪 Setup & Execution
+## Setup & Execution
 
 ### Step 1: Add your Hugging Face & OpenAI tokens
 
@@ -133,15 +121,15 @@ Answer:
 
 ## 🧠 Features
 
-* 🔍 Retrieval-augmented generation (RAG)
-* 🧪 Biomedical QA fine-tuned adapter
-* ⚡ Fast inference via quantization + LoRA
-* 🔗 Plug-and-play with Hugging Face Hub
-* 🎨 Interactive UI via Gradio
+* Retrieval-augmented generation (RAG)
+* Biomedical QA fine-tuned adapter
+* Fast inference via quantization + LoRA
+* Plug-and-play with Hugging Face Hub
+* Interactive UI via Gradio
 
 ---
 
-## 🚧 TODO
+## TODO
 
 * [ ] Add streaming responses for long outputs
 * [ ] Integrate document upload for dynamic indexing
@@ -156,7 +144,7 @@ MIT License. See `LICENSE.md` for details.
 
 ---
 
-## 🙌 Acknowledgments
+## Acknowledgments
 
 * Meta AI for LLaMA 2
 * HuggingFace for transformers + PEFT

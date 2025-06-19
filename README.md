@@ -1,10 +1,10 @@
 ### BioLLM + RAG Chatbot
 
-A Biomedical Question-Answering Chatbot combining **LLaMA 2** (finetuned with LoRA adapters) and **Retrieval-Augmented Generation (RAG)** using by **Chroma vector store** and **LlamaIndex**. This project tr precise, context-rich biomedical Q\&A through a Gradio interface. Project is deployed on <a href="https://huggingface.co/spaces/nemheen/biomedicalllm">HuggingFace Space.</a>
+A Biomedical Question-Answering Chatbot combining **LLaMA 2** (finetuned with LoRA adapters) and **Retrieval-Augmented Generation (RAG)** using by **Chroma vector store** and **LlamaIndex**. This project tr precise, context-rich biomedical Q\&A through a Gradio interface. Project is deployed on <a href="https://huggingface.co/spaces/nemheen/biomedicalllm">HuggingFace Space.(It's currently puased due to gpu subscription fee)</a>
 
 ---
 
-Overview
+###Overview
 
 This chatbot pipeline includes:
 
@@ -16,7 +16,7 @@ This chatbot pipeline includes:
 * ✅ Interface through Gradio Chat
 
 ---
-Requirements
+###Requirements
 
 * Python >= 3.9
 * GPU-enabled
@@ -27,9 +27,9 @@ Refer to requirements.txt
 
 ---
 
-## Setup & Execution
+### Setup & Execution
 
-### Step 1: Add your Hugging Face & OpenAI tokens
+#### Step 1: Add your Hugging Face & OpenAI tokens
 
 ```python
 import os
@@ -37,7 +37,7 @@ os.environ["HUGGINGFACE_TOKEN"] = "your_hf_token"
 os.environ["OPENAI_API_KEY"] = "your_openai_key"
 ```
 
-### Step 2: Download and extract model + index files
+#### Step 2: Download and extract model + index files
 
 The code handles automatic download from HuggingFace if not already present:
 
@@ -48,7 +48,7 @@ The code handles automatic download from HuggingFace if not already present:
 # - chroma_db.zip  (Chroma vector DB)
 ```
 
-### Step 3: Load the model + tokenizer
+#### Step 3: Load the model + tokenizer
 
 ```python
 base_model_id = "meta-llama/Llama-2-7b-chat-hf"
@@ -74,7 +74,7 @@ model_from_checkpoint = PeftModel.from_pretrained(
 )
 ```
 
-### Step 4: Launch Gradio Chat Interface
+#### Step 4: Launch Gradio Chat Interface
 
 ```python
 demo.launch()
@@ -89,7 +89,7 @@ You’ll see a nice web UI that supports:
 
 ---
 
-## 💬 Sample Prompt
+### 💬 Sample Prompt
 
 > **Q:** What is the mechanism of action of aspirin?
 
@@ -107,7 +107,7 @@ Answer:
 
 ---
 
-## 📦 Models Used
+### 📦 Models Used
 
 * **Base LLM**: `meta-llama/Llama-2-7b-chat-hf` (4-bit)
 * **LoRA Checkpoint**: Custom-trained biomedical adapter
@@ -116,7 +116,7 @@ Answer:
 
 ---
 
-## 🧠 Features
+### 🧠 Features
 
 * Retrieval-augmented generation (RAG)
 * Biomedical QA fine-tuned adapter
@@ -126,7 +126,7 @@ Answer:
 
 ---
 
-## TODO
+### TODO
 
 * [ ] Add streaming responses for long outputs
 * [ ] Integrate document upload for dynamic indexing
@@ -135,20 +135,20 @@ Answer:
 
 ---
 
-## 📄 License
+### 📄 License
 
 MIT License. See `LICENSE.md` for details.
 
 ---
 
-## Acknowledgments
+### Acknowledgments
 
 * Meta AI for LLaMA 2
 * HuggingFace for transformers + PEFT
 * LlamaIndex + ChromaDB
 * BAAI + MS MARCO teams
 
-## 📝 Reference
+### 📝 Reference
 
 If you use or build upon this project, please cite the original paper that inspired it:
 

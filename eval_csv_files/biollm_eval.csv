@@ -1,0 +1,501 @@
+,full_response,predicted,ground_truth,category
+"When describing gradient structures, they can be gradients in? A) dimension B) composition C) both dimension and composition","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: When describing gradient structures, they can be gradients in? A) dimension B) composition C) both dimension and composition
+
+              Answer: A",A,C,General
+What is the structure found in many crustaceans? A) Cable B) Bouligand  C) Dendritic,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the structure found in many crustaceans? A) Cable B) Bouligand  C) Dendritic
+
+              Answer: A",A,B,General
+What is scanning electron microscopy used for? A) imaging biological materials B) testing biological materials for mechanical strength C) measuring strain rate sensitivity of biological materials,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is scanning electron microscopy used for? A) imaging biological materials B) testing biological materials for mechanical strength C) measuring strain rate sensitivity of biological materials 
+
+              Answer: A",A,A,General
+What is Micro-CT used for? A)  To see internal structures in biological materials  B)  To test the bending strength of biological materials C) To measure Young’s Modulus of biological materials,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is Micro-CT used for? A)  To see internal structures in biological materials  B)  To test the bending strength of biological materials C) To measure Young’s Modulus of biological materials
+
+              Answer: A",A,A,General
+Which is true about cellulose microfibrils? A) They have both crystalline and amorphous regions B) They are fully crystalline C) They are fully amorphous,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is true about cellulose microfibrils? A) They have both crystalline and amorphous regions B) They are fully crystalline C) They are fully amorphous
+
+              Answer: A",A,A,General
+"In the cell wall of wood, what is the hemicellulose reinforced with? A) Lignin B) Chitosan C) Chitin","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: In the cell wall of wood, what is the hemicellulose reinforced with? A) Lignin B) Chitosan C) Chitin
+
+              Answer: A",A,A,General
+How does hydration typically affect crustacean exoskeletons? A) Hydration causes no effect B) More hydrated exoskeletons tend to be more rigid and brittle than hydrated exoskeletons C) More hydrated exoskeletons tend to be more flexible and ductile,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: How does hydration typically affect crustacean exoskeletons? A) Hydration causes no effect B) More hydrated exoskeletons tend to be more rigid and brittle than hydrated exoskeletons C) More hydrated exoskeletons tend to be more flexible and ductile
+
+              Answer: C",C,C,General
+"For keratinous materials like sheep horns and horse hooves, which statement is true? A) Wet samples are more ductile than dry samples B) Wet samples are more brittle than dry samples C) Wet samples behave the same as dry samples","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: For keratinous materials like sheep horns and horse hooves, which statement is true? A) Wet samples are more ductile than dry samples B) Wet samples are more brittle than dry samples C) Wet samples behave the same as dry samples
+
+              Answer: A",A,A,General
+Which of the following biological materials is most notable for impact resistance? A) Stomatopod dactyl club B) Plant stems C) Bird feathers,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which of the following biological materials is most notable for impact resistance? A) Stomatopod dactyl club B) Plant stems C) Bird feathers
+
+              Answer: A",A,A,General
+What material majorly composes plant cell walls? A) Chitin B) Cellulose C) Chitosan,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What material majorly composes plant cell walls? A) Chitin B) Cellulose C) Chitosan
+
+              Answer: A",A,B,General
+"What is crack deflection? A) a toughening mechanism where tortuous crack paths increase energy absorption B) a self assembly mechanism where cracks heal C) a process where cracks propagate in a straight line, minimizing energy absorption","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is crack deflection? A) a toughening mechanism where tortuous crack paths increase energy absorption B) a self assembly mechanism where cracks heal C) a process where cracks propagate in a straight line, minimizing energy absorption
+
+              Answer: A",A,A,General
+Which is NOT really an example of a overlapping structure? A) chiton exoskeleton B) pangolin shell C) palm leaves,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is NOT really an example of a overlapping structure? A) chiton exoskeleton B) pangolin shell C) palm leaves
+
+              Answer: C) palm leaves",C,C,General
+"Which is the correct desciption of a cellular structure? A) lightweight, porous or foam B) rigid and solid C) liquid and amorphous ","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is the correct desciption of a cellular structure? A) lightweight, porous or foam B) rigid and solid C) liquid and amorphous 
+
+              Answer: A",A,A,General
+What is the correct description of a tubular structure? A) organized porous cylinders B) cubic and translucent C) flat interfaces,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the correct description of a tubular structure? A) organized porous cylinders B) cubic and translucent C) flat interfaces
+
+              Answer: A",A,A,General
+Which combination of inorganic-organic components is found in bone? A) Hydroxyapatite and collagen B) Hydrochloric acid and collagen C) Hydroxyapatite and elastin,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which combination of inorganic-organic components is found in bone? A) Hydroxyapatite and collagen B) Hydrochloric acid and collagen C) Hydroxyapatite and elastin
+
+              Answer: A",A,A,General
+What material majorly composes crustacean exoskeletons? A) Cellulose B) Chitin C) Keratin,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What material majorly composes crustacean exoskeletons? A) Cellulose B) Chitin C) Keratin
+
+              Answer: A",A,B,General
+"What material majorly composes nails, horns, hooves, and hair? A) Cellulose B) Chitin C) Keratin","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What material majorly composes nails, horns, hooves, and hair? A) Cellulose B) Chitin C) Keratin
+
+              Answer: C) Keratin",C,C,General
+What do Ashby plots for biological materials typically display? A) Strength as a function of density B) Strain rate to deformation and failure mode C) Microstructure to macrostructure,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What do Ashby plots for biological materials typically display? A) Strength as a function of density B) Strain rate to deformation and failure mode C) Microstructure to macrostructure
+
+              Answer: A",A,A,General
+Which phase of biominerialized biological materials is typically harder? A) mineral component is harder B) organic component is harder C) mineral and organic component are the same,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which phase of biominerialized biological materials is typically harder? A) mineral component is harder B) organic component is harder C) mineral and organic component are the same
+
+              Answer: A",A,A,General
+What are insect cuticles typically made of? A) Cellulose B) Chitin C) Keratin,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What are insect cuticles typically made of? A) Cellulose B) Chitin C) Keratin
+
+              Answer: A",A,B,General
+"Which option best describes natural cellular structures, like wood, bone, and plant stems? A) mostly anisotropic B) mostly isotropic C) entirely isotropic","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which option best describes natural cellular structures, like wood, bone, and plant stems? A) mostly anisotropic B) mostly isotropic C) entirely isotropic
+
+              Answer: A",A,A,General
+How does the cellular structure of wood affect its mechanics? A) wood presents anisotropic behavior B) wood presents isotropic behavior C) wood behaves the same in every loading direction,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: How does the cellular structure of wood affect its mechanics? A) wood presents anisotropic behavior B) wood presents isotropic behavior C) wood behaves the same in every loading direction
+
+              Answer: A",A,A,General
+Which has higher toughness? A) hydroxyapatite B) collagen C) hydroxyapatite and collagen have the same toughness,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which has higher toughness? A) hydroxyapatite B) collagen C) hydroxyapatite and collagen have the same toughness
+
+              Answer: A",A,B,General
+"What is trabecular bone? A) spongy, porous part of bone B) solid, rigid part of bone C) viscous liquid part of bone","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is trabecular bone? A) spongy, porous part of bone B) solid, rigid part of bone C) viscous liquid part of bone
+
+              Answer: A",A,A,General
+Which has higher stiffness? A) hydroxyapatite B) collagen C) hydroxyapatite and collagen have the same stiffness,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which has higher stiffness? A) hydroxyapatite B) collagen C) hydroxyapatite and collagen have the same stiffness
+
+              Answer: A) hydroxyapatite",A,A,General
+What mechanical behavior do siliceous sponges exhibit? A) brittleness and high rates of fracture B) high rigidity and high density C) high flexibility and toughness,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What mechanical behavior do siliceous sponges exhibit? A) brittleness and high rates of fracture B) high rigidity and high density C) high flexibility and toughness
+
+              Answer: C) high flexibility and toughness",C,C,General
+What are tendons made of? A) chitin fibrils B) collagen fibrils C) cellulose fibrils,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What are tendons made of? A) chitin fibrils B) collagen fibrils C) cellulose fibrils
+
+              Answer: A) chitin fibrils",A,B,General
+Which is an example biological material that experiences high speed impacts? A) woodpecker beak B) nacre C) tooth,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is an example biological material that experiences high speed impacts? A) woodpecker beak B) nacre C) tooth
+
+              Answer: A",A,A,General
+What are the crystalline phase(s) of keratin? A) alpha and beta keratin B) only alpha keratin C) only beta keratin,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What are the crystalline phase(s) of keratin? A) alpha and beta keratin B) only alpha keratin C) only beta keratin
+
+              Answer: A",A,A,General
+Where are osteons found in? A) shells B) plant stems C) bone and antlers,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Where are osteons found in? A) shells B) plant stems C) bone and antlers
+
+              Answer: A",A,C,General
+Where is nacre found in? A) mollusks and shells B) plant stems C) bone,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Where is nacre found in? A) mollusks and shells B) plant stems C) bone
+
+              Answer: A",A,A,General
+What is fracture toughness? A) the maximum stress a material can withstand B) the energy equired to propagate a crack within a material B) the flexibility of a material,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is fracture toughness? A) the maximum stress a material can withstand B) the energy equired to propagate a crack within a material B) the flexibility of a material
+
+              Answer: B",B,B,General
+What is the typical mineral found in shells and crustacean exoskeletons? A) silica B) calcium carbonate C) gypsum,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the typical mineral found in shells and crustacean exoskeletons? A) silica B) calcium carbonate C) gypsum
+
+              Answer: A",A,B,General
+What do indentation methods test for? A) mechanical properties like hardness B) thermal properties C) electrical properties,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What do indentation methods test for? A) mechanical properties like hardness B) thermal properties C) electrical properties
+
+              Answer: A",A,A,General
+What do anthropod exoskeletons mostly consist of? A) chitin and protein B) cellulose and protein C) silk and protein,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What do anthropod exoskeletons mostly consist of? A) chitin and protein B) cellulose and protein C) silk and protein
+
+              Answer: A",A,A,General
+"What does impact loading typically mean? A) static loading B) high speed, dynamic loading C) quasi-static loading","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What does impact loading typically mean? A) static loading B) high speed, dynamic loading C) quasi-static loading
+
+              Answer: A",A,B,General
+Does nacre contain more mineral content or protein content? A) more mineral content B) more protein content C) same mineral to protein content,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Does nacre contain more mineral content or protein content? A) more mineral content B) more protein content C) same mineral to protein content
+
+              Answer: A",A,A,General
+"What are structures like plants, porcupine quills, bird beaks, and feathers known for? A) resistance to bending and buckling B) resistance to thermal effects C) resistance to strain rate sensitivity","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What are structures like plants, porcupine quills, bird beaks, and feathers known for? A) resistance to bending and buckling B) resistance to thermal effects C) resistance to strain rate sensitivity
+
+              Answer: A",A,A,General
+Which statement is true about typical bird beaks? A) beaks are lightweight and low density B) beaks are heavy and high density C) beaks are solid and compact,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which statement is true about typical bird beaks? A) beaks are lightweight and low density B) beaks are heavy and high density C) beaks are solid and compact
+
+              Answer: A",A,A,General
+Which structure is the structure of antler most similar to? A) conch shell B) nacre C) bone,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which structure is the structure of antler most similar to? A) conch shell B) nacre C) bone
+
+              Answer: A",A,C,General
+Which is an example of a cellular biological material? A) Cork B) Sheet metal C) Stainless steel ingot,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is an example of a cellular biological material? A) Cork B) Sheet metal C) Stainless steel ingot
+
+              Answer: A",A,A,Non-Bio
+Which is an example of an impact-resistant biological material? A) titanium B) horse hoof wall C) polycarbonate,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is an example of an impact-resistant biological material? A) titanium B) horse hoof wall C) polycarbonate 
+
+              Answer: C) polycarbonate",C,B,Non-Bio
+Which is a very notable biological material? A)  spider silk B) brass C) carbon fiber,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is a very notable biological material? A)  spider silk B) brass C) carbon fiber
+
+              Answer: A",A,A,Non-Bio
+Which is an example of a biological material with high fracture toughness? A) bone B) alumina C) polyurethane,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is an example of a biological material with high fracture toughness? A) bone B) alumina C) polyurethane
+
+              Answer: A",A,A,Non-Bio
+Which is considered a biological ceramic? A) sea shells B) porcelain C) stoneware,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is considered a biological ceramic? A) sea shells B) porcelain C) stoneware
+
+              Answer: A",A,A,Non-Bio
+Which is considered a biological fiber? A) silk B) nylon C) kevlar,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is considered a biological fiber? A) silk B) nylon C) kevlar
+
+              Answer: A",A,A,Non-Bio
+Which material has a helical structure? A) grasshopper exoskeleton B) cast iron C) concrete,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which material has a helical structure? A) grasshopper exoskeleton B) cast iron C) concrete
+
+              Answer: A",A,A,Non-Bio
+What is structure is present in crab exoskeleton? A) tubules B) carbon fiber reinforcement C) concrete laminates,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is structure is present in crab exoskeleton? A) tubules B) carbon fiber reinforcement C) concrete laminates
+
+              Answer: A",A,A,Non-Bio
+Which is an example of a biological cellular structure? A) polystyrene foam B) horseshoe crab shell C) polyurethane foam,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is an example of a biological cellular structure? A) polystyrene foam B) horseshoe crab shell C) polyurethane foam
+
+              Answer: C) polyurethane foam",C,B,Non-Bio
+Which is an example of a tough biological material? A) nylon B) teflon C) deer antlers,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is an example of a tough biological material? A) nylon B) teflon C) deer antlers
+
+              Answer: C) deer antlers",C,C,Non-Bio
+What is the tubule density in equine hoof wall? A) 16 tubules/mm^2 B) 1 tubule/mm^2 C) 46 tubules/mm^2,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the tubule density in equine hoof wall? A) 16 tubules/mm^2 B) 1 tubule/mm^2 C) 46 tubules/mm^2
+
+              Answer: A",A,A,Numerical
+What is the elastic modulus of conch shell? A) 3 GPa B) 30 GPa C) 3 MPa,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the elastic modulus of conch shell? A) 3 GPa B) 30 GPa C) 3 MPa
+
+              Answer: A",A,B,Numerical
+What is the ultimate tensile strength of abalone shell? A) 140 MPa B) 1.4 GPa C) 14 MPa,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the ultimate tensile strength of abalone shell? A) 140 MPa B) 1.4 GPa C) 14 MPa
+
+              Answer: A",A,A,Numerical
+What is the elastic modulus of mantis shrimp dactyl club? A) 10 GPa B) 50 MPa C) 75 GPa,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the elastic modulus of mantis shrimp dactyl club? A) 10 GPa B) 50 MPa C) 75 GPa
+
+              Answer: A",A,C,Numerical
+"On average, how large in major axis diameter are the tubules found in horse hoof wall? A) 100 micrometers B) 2 nanometers C) 2 millimeters","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: On average, how large in major axis diameter are the tubules found in horse hoof wall? A) 100 micrometers B) 2 nanometers C) 2 millimeters
+
+              Answer: A",A,A,Numerical
+What is the tensile strength of spider silk? A) 120 MPa B) 2 MPa C) 1.2 GPa,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the tensile strength of spider silk? A) 120 MPa B) 2 MPa C) 1.2 GPa
+
+              Answer: A",A,C,Numerical
+What is the ultimate tensile strength of hagfish slime?  A) 10 GPa B) 180 MPa C) 25 MPa,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the ultimate tensile strength of hagfish slime?  A) 10 GPa B) 180 MPa C) 25 MPa
+
+              Answer: C) 25 MPa",C,B,Numerical
+Which range of ultimate compressive strength is correct for sea urchin spines? A) 10-30 GPa B) 42-49 MPa C) 1-9 Mpa,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which range of ultimate compressive strength is correct for sea urchin spines? A) 10-30 GPa B) 42-49 MPa C) 1-9 Mpa
+
+              Answer: A",A,B,Numerical
+"In abalone shell structure, there is aragonite tiling and layering. Approximately what is the height of these layers? A) 0.5 micrometers  B) 5 nanometers C) 5 micrometers","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: In abalone shell structure, there is aragonite tiling and layering. Approximately what is the height of these layers? A) 0.5 micrometers  B) 5 nanometers C) 5 micrometers
+
+              Answer: A",A,A,Numerical
+What is roughly the elastic modulus of collagen? A) 50 MPa B) 1.5 GPa C) 1 MPa,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is roughly the elastic modulus of collagen? A) 50 MPa B) 1.5 GPa C) 1 MPa
+
+              Answer: A",A,B,Numerical
+What feature is present at the nanoscale of bighorn sheep horn? A) keratin intermediate filaments and amorphous matrix B) collagen fibrils and nanoplatelets C) chitin fibrils/HAP nanoparticles,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What feature is present at the nanoscale of bighorn sheep horn? A) keratin intermediate filaments and amorphous matrix B) collagen fibrils and nanoplatelets C) chitin fibrils/HAP nanoparticles
+
+              Answer: A",A,A,Specific
+What is the gradient found in horse hoof wall? A) Gradient in tubule shape B) Gradient in tubule size C) Gradient in both tubule shape and size,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the gradient found in horse hoof wall? A) Gradient in tubule shape B) Gradient in tubule size C) Gradient in both tubule shape and size
+
+              Answer: A",A,C,Specific
+What happens to coconut shells as they age?  A) they become more anisotropic B) they become more isotropic C) they stay the same,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What happens to coconut shells as they age?  A) they become more anisotropic B) they become more isotropic C) they stay the same
+
+              Answer: A",A,A,Specific
+What compound provides strength in diatom frustules? A) silica B) calcite C) aragonite,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What compound provides strength in diatom frustules? A) silica B) calcite C) aragonite
+
+              Answer: A",A,A,Specific
+"In the american lobster shell, which has higher stiffness? A) exocuticle of american lobster shell B) endocuticle of american lobster shell C) exocuticle and endocuticle have the same stiffness","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: In the american lobster shell, which has higher stiffness? A) exocuticle of american lobster shell B) endocuticle of american lobster shell C) exocuticle and endocuticle have the same stiffness
+
+              Answer: A",A,A,Specific
+Is there higher mineral or higher polymer content found in sea sponge? A) Higher mineral content B) Higher polymer content C) Same amount mineral and polymer,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Is there higher mineral or higher polymer content found in sea sponge? A) Higher mineral content B) Higher polymer content C) Same amount mineral and polymer 
+
+              Answer: A",A,A,Specific
+What is mantis shrimp dactyl club is composed of? A) Keratin  B) Chitin C) Collagen,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is mantis shrimp dactyl club is composed of? A) Keratin  B) Chitin C) Collagen
+
+              Answer: A",A,B,Specific
+What structure is NOT found in the hierarchy of American lobster shell? A) Chitin fibers B) Layers C) Keratin fibers,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What structure is NOT found in the hierarchy of American lobster shell? A) Chitin fibers B) Layers C) Keratin fibers 
+
+              Answer: C) Keratin fibers",C,C,Specific
+"In abalone shell, in which loading direction is compressive strength the highest? A) Perpendicular to the shell surface B) Parallel to the shell surface C) Neither, compressive strength is the same for both perpendicular and parallel","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: In abalone shell, in which loading direction is compressive strength the highest? A) Perpendicular to the shell surface B) Parallel to the shell surface C) Neither, compressive strength is the same for both perpendicular and parallel
+
+              Answer: A",A,A,Specific
+Which statement is true about toucan beaks? A) Toucan beaks are fully hollow B) Toucan beaks are fully foam C) Toucan beaks are both hollow and foam,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which statement is true about toucan beaks? A) Toucan beaks are fully hollow B) Toucan beaks are fully foam C) Toucan beaks are both hollow and foam 
+
+              Answer: C) Toucan beaks are both hollow and foam",C,C,Specific
+What happens when whale baleen is hydrated? A) Becomes more flexible B) Becomes less flexible C) Stays the same,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What happens when whale baleen is hydrated? A) Becomes more flexible B) Becomes less flexible C) Stays the same 
+
+              Answer: A",A,A,Specific
+Which horn has the greatest resistance to high impacts? A) bighorn sheep B) mountain goat C) pronghorn,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which horn has the greatest resistance to high impacts? A) bighorn sheep B) mountain goat C) pronghorn  
+
+              Answer: A) bighorn sheep",A,A,Specific
+Which horn does not have tubules? A) Domestic sheep horn B) Pronghorn horn C) Mountain goat horn,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which horn does not have tubules? A) Domestic sheep horn B) Pronghorn horn C) Mountain goat horn
+
+              Answer: C) Mountain goat horn",C,C,Specific
+What is beetle elytra is made of? A) chitin B) keratin C) collagen,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is beetle elytra is made of? A) chitin B) keratin C) collagen
+
+              Answer: A",A,A,Specific
+Which structure is present in mantis shrimp dactyl club? A) Tubular structure B) Truss structure C) Bouligand structure,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which structure is present in mantis shrimp dactyl club? A) Tubular structure B) Truss structure C) Bouligand structure
+
+              Answer: A",A,C,Specific
+Which structure is found in abalone shell? A) layered structure B) truss structure C) column structure,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which structure is found in abalone shell? A) layered structure B) truss structure C) column structure
+
+              Answer: A",A,A,Specific
+"When impacting horns of species like pronghorn, domestic sheep, mountain goat, and bighorn sheep, which loading direction exhibits the highest toughness? A) radial (perpendicular to the tubules) B) longitudinal (parallel to the tubules) C) transverse","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: When impacting horns of species like pronghorn, domestic sheep, mountain goat, and bighorn sheep, which loading direction exhibits the highest toughness? A) radial (perpendicular to the tubules) B) longitudinal (parallel to the tubules) C) transverse
+
+              Answer: A",A,A,Specific
+"At the molecular level in bone, what does Type I collagen tend to form? A) triple helix segments B) flat sheets C) double helix segments","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: At the molecular level in bone, what does Type I collagen tend to form? A) triple helix segments B) flat sheets C) double helix segments
+
+              Answer: A",A,A,Specific
+Which mechanical property of silk contributes to its exceptional strength? A) High compressive strength B) High tensile strength C) Small aspect ratio,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which mechanical property of silk contributes to its exceptional strength? A) High compressive strength B) High tensile strength C) Small aspect ratio
+
+              Answer: A",A,B,Specific
+What is the difference between trabecular and compact bone? A) trabecular bone is lower in density B) trabecular bone is higher in density C) trabecular bone and compact bone have the same density,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the difference between trabecular and compact bone? A) trabecular bone is lower in density B) trabecular bone is higher in density C) trabecular bone and compact bone have the same density 
+
+              Answer: A",A,A,Specific
+Which statement is true about glass sponge? A) Glass sponge's silica basket is rigid and its spicules are flexible B) Glass sponge's silica basket is flexible and its spicules are rigid C) Glass sponge's basket and spicules are both flexible,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which statement is true about glass sponge? A) Glass sponge's silica basket is rigid and its spicules are flexible B) Glass sponge's silica basket is flexible and its spicules are rigid C) Glass sponge's basket and spicules are both flexible 
+
+              Answer: A",A,A,Specific
+"What structure is found in seahorse tail skeleton on the macroscale? A) bouligand structure B) overlapping, interlocking bony segments C) dense muscle with no skeletal support","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What structure is found in seahorse tail skeleton on the macroscale? A) bouligand structure B) overlapping, interlocking bony segments C) dense muscle with no skeletal support
+
+              Answer: A",A,B,Specific
+Where along sea urchin spines have they been shown to preferentially fail? A) at the base of the spine B) at the tip of the spine C) in the middle of the spine,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Where along sea urchin spines have they been shown to preferentially fail? A) at the base of the spine B) at the tip of the spine C) in the middle of the spine
+
+              Answer: A",A,A,Specific
+"What does the brick-and-mortar structure of nacre provide in terms of crack deflection? A) a smooth, continuously curved crack path B) a highly tortuous crack path with 90 degree bends C) straight line crack path ","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What does the brick-and-mortar structure of nacre provide in terms of crack deflection? A) a smooth, continuously curved crack path B) a highly tortuous crack path with 90 degree bends C) straight line crack path 
+
+              Answer: A",A,B,Specific
+What are hagfish teeth composed of? A) Chitin B) Keratin C) Collagen,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What are hagfish teeth composed of? A) Chitin B) Keratin C) Collagen
+
+              Answer: A",A,B,Specific
+Which is the correct description of porcupine quill structure? A) stiff outer sheath and a stiff core B) compliant porous outer sheath and a stiff core C) stiff outer sheath and a compliant porous foam core,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which is the correct description of porcupine quill structure? A) stiff outer sheath and a stiff core B) compliant porous outer sheath and a stiff core C) stiff outer sheath and a compliant porous foam core 
+
+              Answer: A",A,C,Specific
+What is the primary shaft of bird feathers called? A) barbs B) barbules c) rachis,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the primary shaft of bird feathers called? A) barbs B) barbules c) rachis
+
+              Answer: A",A,C,Specific
+Which region of teeth has higher hardness? A) dentin B) enamel C) pulp,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which region of teeth has higher hardness? A) dentin B) enamel C) pulp
+
+              Answer: A",A,B,Specific
+What is the mineralization gradient found in fish scales? A) Lower mineralization degree towards the surface B) Higher mineralization degree towards the surface C) There is no gradient in mineralization,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the mineralization gradient found in fish scales? A) Lower mineralization degree towards the surface B) Higher mineralization degree towards the surface C) There is no gradient in mineralization
+
+              Answer: A",A,B,Specific
+What is the layer thickness gradient found in lobster or crab exoskeleton? A) Increasing layer thickness from exocuticle to endocuticle B) Decreasing layer thickness from exocuticle to endocuticle C) There is no gradient in layer thickness,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What is the layer thickness gradient found in lobster or crab exoskeleton? A) Increasing layer thickness from exocuticle to endocuticle B) Decreasing layer thickness from exocuticle to endocuticle C) There is no gradient in layer thickness
+
+              Answer: A",A,A,Specific
+What shape are the tubules found in elephant tusks? A) elliptical or oval B) triangular C) square,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What shape are the tubules found in elephant tusks? A) elliptical or oval B) triangular C) square
+
+              Answer: C) square",C,A,Specific
+What are mussel byssal threads composed of? A) chitin fibrils B) keratin fibrils C) collagen fibrils,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What are mussel byssal threads composed of? A) chitin fibrils B) keratin fibrils C) collagen fibrils
+
+              Answer: A",A,C,Specific
+What are sea sponge spicules considered as? A) biological ceramics B) biological elastomers C) synthetic,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What are sea sponge spicules considered as? A) biological ceramics B) biological elastomers C) synthetic
+
+              Answer: A",A,A,Specific
+What are the primary components found in skin? A) Hydroxyapatite and collagen B) Hydrochloric acid and collagen C) Elastin and collagen,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What are the primary components found in skin? A) Hydroxyapatite and collagen B) Hydrochloric acid and collagen C) Elastin and collagen
+
+              Answer: C) Elastin and collagen",C,C,Specific
+What best describes the mechanical behavior of human red blood cells? A) elastic and deformable B) plastic and permanently deformable C) hard and rigid,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What best describes the mechanical behavior of human red blood cells? A) elastic and deformable B) plastic and permanently deformable C) hard and rigid 
+
+              Answer: A",A,A,Specific
+"How do higher humidity conditions affect the stiffness of bird feathers? A) higher humidity, lowers stiffness B) higher humidity, increases stiffness C) higher humidity causes no change","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: How do higher humidity conditions affect the stiffness of bird feathers? A) higher humidity, lowers stiffness B) higher humidity, increases stiffness C) higher humidity causes no change
+
+              Answer: A",A,A,Specific
+Which region of the stonecrab's claw is harder and tougher? A) Black region (tips of the claw) B) Yellow region C) Both black and yellow regions had the same hardness,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which region of the stonecrab's claw is harder and tougher? A) Black region (tips of the claw) B) Yellow region C) Both black and yellow regions had the same hardness
+
+              Answer: A",A,A,Specific
+"Are there tubules found in the microstructure of rhinoceros horn? A) Yes, there are tubules present B) No, there are no tubules present C) Research has never been done on rhinoceros horn","You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Are there tubules found in the microstructure of rhinoceros horn? A) Yes, there are tubules present B) No, there are no tubules present C) Research has never been done on rhinoceros horn
+
+              Answer: A",A,A,Specific
+What do sap channels in tree wood provide mechanically? A) Sap channels have no mechanical purpose B) Sap channels can arrest or deflect crack propagation C) Sap channels increase crack propagation leading to sooner failure,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: What do sap channels in tree wood provide mechanically? A) Sap channels have no mechanical purpose B) Sap channels can arrest or deflect crack propagation C) Sap channels increase crack propagation leading to sooner failure
+
+              Answer: C) Sap channels increase crack propagation leading to sooner failure",C,B,Specific
+Which best describes the mineral content found in chiton teeth? A) Notably high mineral content B) Notably low mineral content C) No mineral content,"You will be given a multiple-choice question. Respond with only the letter corresponding to the correct answer (A, B, C). Do not include explanations or restate the question.
+
+              Question: Which best describes the mineral content found in chiton teeth? A) Notably high mineral content B) Notably low mineral content C) No mineral content
+
+              Answer: A",A,A,Specific

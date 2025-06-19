@@ -1,6 +1,6 @@
 ### BioLLM + RAG Chatbot
 
-A Biomedical Question-Answering Chatbot combining **LLaMA 2** (finetuned with LoRA adapters) and **Retrieval-Augmented Generation (RAG)** using by **Chroma vector store** and **LlamaIndex**. This project tr precise, context-rich biomedical Q\&A through a Gradio interface. Project is deployed on <a href="https://huggingface.co/spaces/nemheen/biomedicalllm">HuggingFace Space.(It's currently puased due to gpu subscription fee)</a>
+A Biomedical Question-Answering Chatbot combining **LLaMA 2** (finetuned with LoRA adapters) and **Retrieval-Augmented Generation (RAG)** using by **Chroma vector store** and **LlamaIndex**. This project tr precise, context-rich biomedical Q\&A through a Gradio interface. Project is deployed on <a href="https://huggingface.co/spaces/nemheen/biomedicalllm">HuggingFace Space.(It's currently puased due to gpu subscription fee)</a>. It's an independent project, implemented solo, inspired by the paper <a href="BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials ">BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials</a>.
 
 ---
 

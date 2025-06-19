@@ -1,7 +1,6 @@
-
 # 🧬 BioLLM + RAG Chatbot
 
-A Biomedical Question-Answering Chatbot combining **LLaMA 2** (finetuned with LoRA adapters) and **Retrieval-Augmented Generation (RAG)** powered by **Chroma vector store** and **LlamaIndex**. This project allows precise, context-rich biomedical Q\&A through a Gradio interface. Project is deployed on <a href="https://huggingface.co/spaces/nemheen/biomedicalllm">HuggingFace Space.</a>
+A Biomedical Question-Answering Chatbot combining **LLaMA 2** (finetuned with LoRA adapters) and **Retrieval-Augmented Generation (RAG)** using by **Chroma vector store** and **LlamaIndex**. This project tr precise, context-rich biomedical Q\&A through a Gradio interface. Project is deployed on <a href="https://huggingface.co/spaces/nemheen/biomedicalllm">HuggingFace Space.</a>
 
 ---
 
@@ -9,12 +8,12 @@ A Biomedical Question-Answering Chatbot combining **LLaMA 2** (finetuned with Lo
 
 This chatbot pipeline includes:
 
-* ✅ **LLaMA 2 (7B Chat)** loaded in **4-bit** with PEFT (LoRA) adapter
-* ✅ Biomedical documents indexed with **ChromaDB** + **HuggingFace embeddings**
-* ✅ Contextual retrieval with **LlamaIndex**
-* ✅ Re-ranking via **SentenceTransformer cross-encoder** to filter contexts
+* ✅ LLaMA 2 (7B Chat) loaded in 4-bit with PEFT (LoRA) adapter
+* ✅ Biomedical documents indexed with ChromaDB + HuggingFace embeddings
+* ✅ Contextual retrieval with LlamaIndex
+* ✅ Re-ranking via SentenceTransformer cross-encoder** to filter contexts
 * ✅ Lightweight and fast inference using quantization with BitsandBytes
-* ✅ Interface through **Gradio Chat**
+* ✅ Interface through Gradio Chat
 
 ---
 
@@ -150,4 +149,11 @@ MIT License. See `LICENSE.md` for details.
 * HuggingFace for transformers + PEFT
 * LlamaIndex + ChromaDB
 * BAAI + MS MARCO teams
-* https://doi.org/10.1002/advs.202306724
+
+## 📝 Reference
+
+If you use or build upon this project, please cite the original paper that inspired it:
+
+> BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials 
+> DOI: [10.1002/advs.202306724](https://doi.org/10.1002/advs.202306724)
+

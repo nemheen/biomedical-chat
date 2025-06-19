@@ -1,10 +1,10 @@
-# 🧬 BioLLM + RAG Chatbot
+### BioLLM + RAG Chatbot
 
 A Biomedical Question-Answering Chatbot combining **LLaMA 2** (finetuned with LoRA adapters) and **Retrieval-Augmented Generation (RAG)** using by **Chroma vector store** and **LlamaIndex**. This project tr precise, context-rich biomedical Q\&A through a Gradio interface. Project is deployed on <a href="https://huggingface.co/spaces/nemheen/biomedicalllm">HuggingFace Space.</a>
 
 ---
 
-## Overview
+Overview
 
 This chatbot pipeline includes:
 
@@ -16,14 +16,12 @@ This chatbot pipeline includes:
 * ✅ Interface through Gradio Chat
 
 ---
-
-
-## ⚙Requirements
+Requirements
 
 * Python >= 3.9
 * GPU-enabled
 
-### For dependencies&libraries:
+For dependencies&libraries:
 
 Refer to requirements.txt
 

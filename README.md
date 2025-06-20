@@ -1,101 +1,123 @@
-### BioLLM + RAG Chatbot
+🧬 BioLLM + RAG Chatbot
 
-A Biomedical Question-Answering Chatbot combining **LLaMA 2** (finetuned with LoRA adapters) and **Retrieval-Augmented Generation (RAG)** using by **Chroma vector store** and **LlamaIndex**. This project tr precise, context-rich biomedical Q\&A through a Gradio interface. Project is deployed on <a href="https://huggingface.co/spaces/nemheen/biomedicalllm">HuggingFace Space.(It's currently puased due to gpu subscription fee)</a>. It's an independent project, implemented solo, inspired by the paper <a href="BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials ">BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials</a>.
+This is a biomedical question-answering chatbot built using LLaMA 2 (fine-tuned with LoRA adapters) and a Retrieval-Augmented Generation (RAG) pipeline powered by Chroma vector store and LlamaIndex. It’s designed to help people in the biology field ask questions and explore scientific content by bringing papers from various sources into one place.
+
+While the current document database is still limited and the RAG results aren’t perfect, the system can improve as more scientific texts are added to the vector database.
+
+The project is deployed on Hugging Face Spaces (currently paused due to GPU subscription costs).
+This is a solo project I built myself, inspired by the paper BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials.
+
 
 ---
 
-###Overview
+📦 Key Files (Downloadable from Hugging Face Hub)
+
+checkpoint.zip
+Contains the LoRA adapter weights from finetuning LLaMA 2 on a custom biomedical QA dataset.
+
+Trained on 22,000 biomedical QA pairs
+
+3000 training steps using transformers.Trainer
+
+Optimizer: AdamW with learning rate = 2e-4, epsilon = 1e-8
+
+Gradient clipping: 0.3
+
+Parameters were reduced by 99.2586% using LoRA
+
+Training logs tracked using Weights & Biases (wandb)
+
+Note: Model resumes from step 500 during initialization to skip warm-up
+
+
+index.zip
+Stores the LlamaIndex vector index, built on top of biomedical documents. It handles fast semantic search over the context chunks used in RAG.
+
+chroma_db.zip
+This is the Chroma vector database, which stores embedded biomedical documents using BAAI/bge-large-en embeddings. It’s the source for relevant documents during retrieval.
+
+
+
+---
+
+📋 Overview
 
 This chatbot pipeline includes:
 
-* ✅ LLaMA 2 (7B Chat) loaded in 4-bit with PEFT (LoRA) adapter
-* ✅ Biomedical documents indexed with ChromaDB + HuggingFace embeddings
-* ✅ Contextual retrieval with LlamaIndex
-* ✅ Re-ranking via SentenceTransformer cross-encoder** to filter contexts
-* ✅ Lightweight and fast inference using quantization with BitsandBytes
-* ✅ Interface through Gradio Chat
+- LLaMA 2 (7B Chat) loaded in 4-bit with PEFT (LoRA) adapter
 
----
-###Requirements
+- Biomedical documents fetched, cleaned, indexed with ChromaDB + HuggingFace embeddings
 
-* Python >= 3.9
-* GPU-enabled
+- Contextual retrieval with LlamaIndex
 
-For dependencies&libraries:
+- Re-ranking via SentenceTransformer cross-encoder to filter top-relevant contexts
 
-Refer to requirements.txt
+- Fast, memory-efficient inference using quantization (via BitsandBytes)
+
+- Interactive web chat using Gradio
+
+
 
 ---
 
-### Setup & Execution
+⚙️ Requirements
 
-#### Step 1: Add your Hugging Face & OpenAI tokens
+Python >= 3.9
 
-```python
+GPU-enabled runtime (CUDA)
+
+
+To install all required dependencies, refer to requirements.txt.
+
+
+---
+
+🚀 Setup & Execution
+
+Step 1: Add your API tokens
+
 import os
 os.environ["HUGGINGFACE_TOKEN"] = "your_hf_token"
 os.environ["OPENAI_API_KEY"] = "your_openai_key"
-```
 
-#### Step 2: Download and extract model + index files
+Step 2: Unzip and configure paths
 
-The code handles automatic download from HuggingFace if not already present:
+Download the following files and unzip:
 
-```python
-# Files:
-# - checkpoint.zip (LoRA weights)
-# - index.zip      (LlamaIndex storage)
-# - chroma_db.zip  (Chroma vector DB)
-```
+checkpoint.zip → LoRA adapter weights
 
-#### Step 3: Load the model + tokenizer
+index.zip → LlamaIndex storage
 
-```python
-base_model_id = "meta-llama/Llama-2-7b-chat-hf"
+chroma_db.zip → Chroma vector DB
 
-bnb_config = BitsAndBytesConfig(
-    load_in_4bit=True,
-    bnb_4bit_quant_type="nf4",
-    bnb_4bit_use_double_quant=True,
-    bnb_4bit_compute_dtype=torch.float16
-)
 
-base_model = AutoModelForCausalLM.from_pretrained(
-    base_model_id,
-    device_map="auto",
-    quantization_config=bnb_config,
-    token=huggingface_token
-)
+Make sure to configure their paths x
+correctly in app.py.
 
-model_from_checkpoint = PeftModel.from_pretrained(
-    base_model,
-    adapter_path,  # e.g., "llama/checkpoint-3000"
-    token=huggingface_token
-)
-```
+Step 3: Run the app on huggingface space. (or main_biollm.ipynb)
 
-#### Step 4: Launch Gradio Chat Interface
+Launch the Gradio interface:
 
-```python
-demo.launch()
-```
+You’ll get a web UI with:
 
-You’ll see a nice web UI that supports:
+Input field for biomedical questions
 
-* Input question
-* System message
-* Temperature, top-p
-* Token limit
+Adjustable parameters (temperature, top-p, token limit)
+
+System message area for persona prompts
+
+
 
 ---
 
-### 💬 Sample Prompt
+💬 Sample Prompt
 
-> **Q:** What is the mechanism of action of aspirin?
+> Q: What is the mechanism of action of aspirin?
 
-The system retrieves relevant biomedical passages and constructs a prompt like:
 
-```
+
+The system retrieves relevant biomedical passages and creates a contextual prompt like this:
+
 You are a biomedical expert. Use the given context to answer the question in a concise and clear manner.
 
 Context:
@@ -103,55 +125,75 @@ Context:
 
 Question: What is the mechanism of action of aspirin?
 Answer:
-```
+
 
 ---
 
-### 📦 Models Used
+🔍 Models Used
 
-* **Base LLM**: `meta-llama/Llama-2-7b-chat-hf` (4-bit)
-* **LoRA Checkpoint**: Custom-trained biomedical adapter
-* **Embedding Model**: `BAAI/bge-large-en`
-* **Reranker**: `cross-encoder/ms-marco-MiniLM-L-6-v2`
+Component	Model
 
----
+Base LLM	meta-llama/Llama-2-7b-chat-hf (4-bit)
+LoRA Checkpoint	Custom-trained biomedical adapter (checkpoint.zip)
+Embedding Model	BAAI/bge-large-en
+Reranker	cross-encoder/ms-marco-MiniLM-L-6-v2
 
-### 🧠 Features
 
-* Retrieval-augmented generation (RAG)
-* Biomedical QA fine-tuned adapter
-* Fast inference via quantization + LoRA
-* Plug-and-play with Hugging Face Hub
-* Interactive UI via Gradio
 
 ---
 
-### TODO
+🧠 Features
 
-* [ ] Add streaming responses for long outputs
-* [ ] Integrate document upload for dynamic indexing
-* [ ] Add support for citation highlighting in output
-* [ ] Optimize memory usage for colab-level hardware
+Retrieval-Augmented Generation (RAG)
+
+Biomedical QA adapter (LoRA-based)
+
+Efficient inference (quantized LLaMA + BitsAndBytes)
+
+Plug-and-play design (via Hugging Face + Gradio)
+
+
 
 ---
 
-### 📄 License
+✅ TODO
 
-MIT License. See `LICENSE.md` for details.
+[ ] Add streaming responses for long outputs
+
+[ ] Allow PDF/document upload for dynamic indexing
+
+[ ] Add citation markers for retrieved context in responses
+
+[ ] Optimize for Colab-level hardware
+
+
 
 ---
 
-### Acknowledgments
+📄 License
 
-* Meta AI for LLaMA 2
-* HuggingFace for transformers + PEFT
-* LlamaIndex + ChromaDB
-* BAAI + MS MARCO teams
+MIT License. See LICENSE.md for full terms.
 
-### 📝 Reference
+
+---
+
+🙏 Acknowledgments
+
+Meta AI for LLaMA 2
+
+Hugging Face for Transformers, PEFT, and model hosting
+
+LlamaIndex + ChromaDB for vector-based search
+
+BAAI and MS MARCO for embeddings and reranker models
+
+
+
+---
+
+📝 Reference
 
 If you use or build upon this project, please cite the original paper that inspired it:
 
-> BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials 
-> DOI: [10.1002/advs.202306724](https://doi.org/10.1002/advs.202306724)
-
+> BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials
+> DOI: 10.1002/advs.202306724

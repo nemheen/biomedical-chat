@@ -4,7 +4,7 @@ This is a biomedical question-answering chatbot built using LLaMA 2 (fine-tuned 
 
 While the current document database is still limited and the RAG results aren’t perfect, the system can improve as more scientific texts are added to the vector database.
 
-The project is deployed on Hugging Face Spaces (currently paused due to GPU subscription costs).
+The project is deployed on <a href="https://huggingface.co/spaces/nemheen/biomedicalllm">Hugging Face Spaces</a> (currently paused due to GPU subscription costs).
 This is a solo project I built myself, inspired by the paper BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials.
 
 
